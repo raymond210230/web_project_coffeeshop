@@ -45,12 +45,12 @@
   font-weight: bold;
 }
 
-.header__content {
+.header__title {
   display: flex;
   justify-content: space-between;
 }
 
-.header__title {
+.header__title-blue {
   max-width: 709px;
   margin: 183px auto 0 80px;
   font-weight: 500;
