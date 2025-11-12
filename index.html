@@ -122,51 +122,49 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
-          <form action="#" class="form reservation__form">
+          <form action="#" class="form">
             <fieldset class="form__fieldset">
-              <label for="nombre" class="form__label">Nombre *</label>
+              <label for="name" class="form__label">Nombre *</label>
               <input
                 type="text"
                 class="form__input"
-                id="nombre"
+                id="name"
                 placeholder="Nombre"
               />
-              <label for="numero" class="form__label"
+              <label for="numeroDeComensales" class="form__label"
                 >Número de comensales *</label
               >
               <input
                 type="number"
+                class="form__input"
+                id="numeroDeComensales"
+                placeholder="1-8"
                 min="1"
                 max="8"
-                class="form__input"
-                id="numero"
-                placeholder="1-8"
               />
-              <label for="fechaDeResevacion" class="form__label"
-                >Fecha y hora *</label
-              >
-              <input type="date" class="form__input" id="fechaDeResevacion" />
-              <label for="correo" class="form__label"
+              <label for="fechaYhora" class="form__label">Fecha y hora *</label>
+              <input type="date" class="form__input" id="fechaYhora" />
+              <label for="correoElectronico" class="form__label"
                 >Tu correo electrónico *</label
               >
               <input
                 type="email"
+                id="correoElectronico"
                 class="form__input"
-                id="correo"
                 placeholder="email@email.com"
               />
             </fieldset>
             <button type="submit" class="form__button">
               Reservar una mesa
             </button>
-            <div class="form__checkbox">
+            <div class="form__div">
               <input
                 type="checkbox"
-                class="form__checkbox-input"
-                id="terminosDeUso"
+                class="form__checkbox"
+                id="checkbox"
                 checked
               />
-              <label for="terminosDeUso" class="form__checkbox-label"
+              <label for="checkbox" class="form__label"
                 >Acepto los términos de uso</label
               >
             </div>
