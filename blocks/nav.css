@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: absolute;
+  width: 105px;
+  height: 39px;
+  top: 30px;
+  left: 30px;
+}
+
+.nav__links {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  top: 30px;
+  right: 80px;
+  font-weight: 500;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+}
