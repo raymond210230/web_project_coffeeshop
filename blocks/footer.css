@@ -31,3 +31,37 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.footer__social-heading {
+  margin: 0 0 20px auto;
+  font-weight: bold;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.footer__social-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  margin-top: 108px;
+}
